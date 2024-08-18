@@ -1,0 +1,50 @@
+Class-12 (Media query for device responsiveness)
+****Class 11 (7-8 Aug 24)
+======================
+*****Globally Margin Padding Zero (0) By CSS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*****ctrl + u = open the code in browser. 
+
+
+<link href="css/style.css" rel="stylesheet">
+
+*****Background Img download
+background-image: url(../images/bgi.jpg);
+========================================
+1. <section> </section>
+2. <div></div>
+<section>
+       <div></div>
+       <div></div>
+       <div></div>
+</section>
+
+<section>
+       <div></div>
+       <div></div>
+</section>
+
+
+=====================
+
+float: left; = use to 2 box pasapasi*****
+
+ text-decoration: none;  *****[link ar underline remove kore]
+    color:black;
+    display: block; *****[inline k block a setup kore]
+    ===========================================================
+    ===========================================
+
+    ===============Media Query=============
+    @media screen and (size)******
+
+     @media screen and (width:1000px){
+       .testClass{
+              something 
+       }
+     }

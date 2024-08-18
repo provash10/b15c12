@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.hero{
+    /* background-color: aqua; */
+    background-image: url(../images/bgi.jpg);
+    height : 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color:blue
+}
+
+.project{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.project-item{
+    float: left;
+    height: 200px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-image: url(../images/bgi.jpg);
+    margin-left: 1.33%;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.ftr{
+    height: 300px;
+    background-color: cadetblue;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:blue;
+}
+
+.ftr-item{
+    float: left;
+    height: 200px;
+    width: 30%;
+    text-align: center;
+    /* background-image: url(../images/bgi.jpg); */
+    background-color: aqua;
+    margin-left: 1.33%;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.alink{
+    text-decoration: none;
+    color:black;
+    display: block;
+    margin-top: 3px;
+}
+
+/* Device Responsive = Media Query */
+/* choose Responsive from Inspect */
+
+@media screen and (max-width: 553px){
+    .hero{
+        color: white;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .project-item{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .project-item{
+        width: 90%;
+    }
+}
+
+/* @media screen and (max-width: 421px){
+    .project-item{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 121px){
+    .project-item{
+        width: 31%;
+    }
+} */
+
+
